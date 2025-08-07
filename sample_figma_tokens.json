@@ -1,0 +1,48 @@
+{
+  "variables": [
+    {
+      "name": "color.primary",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "light": "#1D4ED8",
+        "dark": "#2563EB"
+      }
+    },
+    {
+      "name": "color.background",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "light": "#FFFFFF",
+        "dark": "#111827"
+      }
+    },
+    {
+      "name": "spacing.small",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "light": 4
+      }
+    },
+    {
+      "name": "spacing.medium",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "light": 8
+      }
+    },
+    {
+      "name": "font.size.body",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "light": 16
+      }
+    },
+    {
+      "name": "radius.default",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "light": 6
+      }
+    }
+  ]
+}

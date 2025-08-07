@@ -1,0 +1,24 @@
+{
+  "name": "@km00776/design-tokens",
+  "version": "1.0.7",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "build/js",
+    "index.js",
+    "index.d.ts"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "node build-tokens.js",
+    "build:types": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "style-dictionary": "^5.0.1",
+    "typescript": "^5.9.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

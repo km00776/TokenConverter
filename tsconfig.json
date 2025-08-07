@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,                // ← let TS compile .js files
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": ".",                  // writes .d.ts alongside .js
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "module": "ESNext"
+  },
+  "include": [
+    "index.js",                     // your runtime entrypoint
+    "build/js/**/*.js"              // generated token files
+  ],
+  "exclude": [
+    "node_modules"                  // don’t compile deps
+  ]
+}

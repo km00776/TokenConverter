@@ -1,0 +1,30 @@
+{
+  "color": {
+    "primary": {
+      "value": "#1D4ED8"
+    },
+    "background": {
+      "value": "#FFFFFF"
+    }
+  },
+  "spacing": {
+    "small": {
+      "value": 4
+    },
+    "medium": {
+      "value": 8
+    }
+  },
+  "font": {
+    "size": {
+      "body": {
+        "value": 16
+      }
+    }
+  },
+  "radius": {
+    "default": {
+      "value": 6
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "color": {
+    "primary": {
+      "value": "#2563EB"
+    },
+    "background": {
+      "value": "#111827"
+    }
+  },
+  "spacing": {},
+  "font": {
+    "size": {}
+  },
+  "radius": {}
+}
