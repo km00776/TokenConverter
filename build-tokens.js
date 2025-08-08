@@ -33,7 +33,7 @@ for (const theme of themes) {
         buildPath: `build/js/${theme}/`,
         files: [
           {
-            destination: `theme-${theme}.js`,
+            destination: `theme-${theme}.ts`,
             format: 'unistyles/themeObject',
           },
         ],
